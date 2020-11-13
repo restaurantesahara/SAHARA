@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>SAHARA</title>
+	<link rel="icon" type="image/png" href="img/icon.png">
+	<meta name="author" content="David Camilo Molina Rodriguez">
+	<meta name="description" content="Cocina Arabe y Marroqui. Shawarmas, Quibbes, falafel.">
+<!--	FONT HIND GUNTUR-->
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!--	CUSTOM CSS-->
+	<link rel="stylesheet" href="css/index_style.css">
+<!--	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+<!--	CUSTOM JS-->
+
+
+</head>
+<body>
+	<nav class="menu">
+		<div class="caja_menu">
+			<div class="menu_logo"><a href="index.html"><img src="img/log.png" alt=""></a></div>
+				<ul class="menu_items">
+<!--			<li class="active"><a href="menu.html">MENÚ</a></li>-->
+					<li><a href="#"  class="activo" id="menu_id">MENÚ</a></li>
+					<li><a href="#" id="nosotros_id">NOSOTROS</a></li>
+					<li><a href="#" id="galeria_id">GALERIA</a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=573005984994" target="_blank">RESERVAS</a></li>
+					<li><a href="#" id="contacto_id">CONTACTO</a></li>
+				</ul>
+				<span class="btn_menu">
+					<i class="fas fa-bars"></i>
+				</span>
+		</div>	
+	</nav>
+<!--	CAROUSEL ______________________________________________________________________________________-->
+<div id="pes__home">	
+	<div class="carousel1">
+		<div class="carousel1__contenedor">
+		<button aria-label="Anterior" class="carousel1__anterior">
+			<i class="fas fa-chevron-left flechas1"></i>
+		</button>
+		
+		<div class="carousel1__lista">
+			<div class="carousel1__elemento">
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6gjTdWM5jh8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
+			</div>
+			<div class="carousel1__elemento">
+				<img src="img/findex/1.jpg" alt="Platillo especial">
+			</div>
+			<div class="carousel1__elemento">
+				<img src="img/findex/2.jpg" alt="te">						
+			</div>
+			<div class="carousel1__elemento">
+				<img src="img/findex/3.jpg" alt="pasteles de pollo">			
+			</div>
+			<div class="carousel1__elemento">
+				<img src="img/findex/4.jpg" alt="postre tiramisu">
+			</div>
+		</div>
+		
+		<button aria-label="Siguiente" class="carousel1__siguiente">
+			<i class="fas fa-chevron-right flechas1"></i>
+		</button>
+		
+		</div>
+		
+		<div role="tablist" class="carousel1__indicadores"></div>
+	</div>
+	
+	
+<!--	__________________________________________________________________________________________________-->
+	<div class="patron1">
+		<div class="patron1__img">
+		<img src="img/patron1.png">
+		<h1>Platos de destacados</h1>
+		</div>
+	</div>
+
+<!--	CAROUSEL 2_______________________________________________________________________________________-->
+	<div class="carousel2">
+		<div class="carousel2__contenedor">
+		<button aria-label="Anterior" class="carousel2__anterior">
+			<i class="fas fa-chevron-left flechas2"></i>
+		</button>
+		
+		<div class="carousel2__lista">
+			<div class="carousel2__elemento">
+				<img src="img/findex/1.jpg" alt="">	 		
+			</div>
+			<div class="carousel2__elemento">
+				<img src="img/imgaleria/g7.JPG" alt="te">			
+			</div>
+			<div class="carousel2__elemento">
+				<img src="img/imgaleria/g13.jpg" alt="">			
+			</div>
+			<div class="carousel2__elemento">
+				<img src="img/imgmenu/4.jpg" alt="">			
+			</div>
+			<div class="carousel2__elemento">
+				<img src="img/imgmenu/2.jpg" alt="">			
+			</div>
+		</div>
+		
+		<button aria-label="Siguiente" class="carousel2__siguiente">
+			<i class="fas fa-chevron-right flechas2"></i>
+		</button>
+		
+		</div>
+		
+		<div role="tablist" class="carousel2__indicadores"></div>
+	</div>
+	
+	<!--	_________________________________________-->
+	<div class="patron2">
+		<div class="patron2__img">
+		<img src="img/patron2.png">
+		</div>
+	</div>
+	
+</div>	
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	-->
+<div id="pes__menu">
+	
+	<div class="menu_menu">
+		<div class="baner__menu">
+			<img src="img/imgmenu/baner.png" alt="">
+		</div>
+	</div>
+	
+	<div class="fotos_menu">
+		<div class="fotos__item"><img src="img/imgmenu/2.jpg" alt="" class="fotos__img"></div>
+		<div class="fotos__item"><img src="img/imgmenu/1.jpg" alt="" class="fotos__img"></div>
+		<div class="fotos__item"><img src="img/imgmenu/3.jpg" alt="" class="fotos__img"></div>
+		<div class="fotos__item"><img src="img/imgmenu/4.jpg" alt="" class="fotos__img"></div>		
+	</div>
+	
+	<div class="btn__carta"><a href="#" id="carta_id">VER CARTA</a></div>
+	<picture id="img__carta">
+  		<source media="(min-width: 650px)" srcset="img/imgmenu/carta-menu-sahara.jpg" alt="" class="menu__pc">
+ 		<source media="(min-width: 480px)" srcset="img/imgmenu/carta-menu-sahara-cell.jpg" alt="" id="menu__cel">
+  		<img src="#">
+	</picture>
+</div>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	-->
+<div id="pes__nosotros">
+	
+	<div class="container_nos1">
+		<div class="item__nos"><img src="img/imnoso/00.jpg" alt="" class="item__img">
+		</div>
+		<div class="item__nos">
+			<h1 class="titulo__nos">Misión</h1>
+			<p class="parrafo__nos">El restaurante SAHARA es un lugar multifuncional que se especializa en la comida Arabe y Marroqui ofreciendo servicio a sus clientes en formato de restaurante como, creando platos y tapas innovadoras y deliciosas con los más altos estándares de calidad de la auténtica cocina arabe y marroqui en el centro de Bogotá.</p>
+		</div>		
+	</div>
+	<div class="container_nos2">
+		<div class="item__nos">
+			<img src="img/imnoso/1.JPG" alt="" class="imagen__oculto">
+			<h1 class="titulo__contra" align="right">Visión</h1>
+			<p class="parrafo__contra" align="right">Nos perfilamos de cara al futuro en una transición escalable que nos sitúe como uno de los restaurantes más reconocidos de la ciudad de Bogotá en nuestra especialidad, tanto por el sabor como por la calidad de nuestros platos. De esta manera el restaurate SAHARA logrará maximizar sus niveles de rentabilidad, proporcionando grandes oportunidades para mejorar la calidad de vida de los habitantes de nuestra localidad.</p>
+		</div>	
+		<div class="item__nos"><img src="img/imnoso/1.JPG" alt="" class="imagen__contra">
+			<h1 class="titulo__oculto">Visión</h1>
+			<p class="parrafo__oculto">Nos perfilamos de cara al futuro en una transición escalable que nos sitúe como uno de los restaurantes más reconocidos de la ciudad de Bogotá en nuestra especialidad, tanto por el sabor como por la calidad de nuestros platos. De esta manera el restaurate SAHARA logrará maximizar sus niveles de rentabilidad, proporcionando grandes oportunidades para mejorar la calidad de vida de los habitantes de nuestra localidad.</p>		
+		</div>	
+	</div>		
+	<div class="container_nos3">
+		<div class="item__nos"><img src="img/imnoso/3.JPG" alt="" class="item__img">
+		</div>
+		<div class="item__nos">
+			<h1 class="titulo__nos">Valores</h1>
+			<p class="parrafo__nos">Para el restaurante SAHARA los valores son importantes ya que guían y describen el trabajo y servicio que cada cliente encontrará en la experiencia que ofrecemos en nuestra localidad. Los principales valores del SAHARA son: honestidad, solidaridad, confianza, calidad, responsabilidad y excelencia.</p>
+		</div>		
+	</div>	
+</div>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	-->
+<div id="pes__galeria">
+	
+	<div class="gallery_container">
+		<div class="gallery__item"><img src="img/imgaleria/g1.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g2.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g7.JPG" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g4.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g5.JPG" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/findex/1.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/findex/2.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g6.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g11.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g8.JPG" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g9.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g10.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g3.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g12.jpg" alt="" class="gallery__img"></div>
+		<div class="gallery__item"><img src="img/imgaleria/g13.jpg" alt="" class="gallery__img"></div>
+	</div>
+	
+</div>
+
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	-->
+<div id="pes__contacto">
+	<div class="patron2">
+		<div class="patron2__img">
+		<img src="img/patron2.png">
+		</div>
+	</div>
+
+	<div class="caja">
+		<div class="caja__ubi">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9556211337576!2d-74.07186578590998!3d4.601970943788742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99f193496f1f%3A0xd182afb2db99d658!2sS%C3%A1hara%20Restaurante%20%C3%A1rabe%20y%20marroqu%C3%AD!5e0!3m2!1ses!2sco!4v1604495794875!5m2!1ses!2sco" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+		<div class="caja__form">
+			<form action="">
+				<h1 class="titulo__form">Contáctanos</h1>
+				<input type="text" name="nombre" placeholder="Nombre completo" class="name__form">
+				<input type="text" name="correo" placeholder="Dirección de correo electronico" class="email__form">
+				<textarea name="asunto" class="msm__form" placeholder="Asunto" ></textarea>
+				<input type="button" value="Enviar mensaje" class="btn__form">
+			</form>
+		</div>
+	</div>
+	
+	<div class="patron2">
+		<div class="patron2__img">
+		<img src="img/patron2.png">
+		</div>
+	</div>
+</div>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	-->
+
+<!-- -------------------	FOOTER IMG------------------->
+	<section class="imagen__abajo">
+		<div class="footer__img">
+			<img src="img/findex/3.jpg" alt="bla">		
+		</div>
+		<div class="img__cortina"></div>
+		<div class="footer__text1">
+			<h1>Acompaña tus días con la mejor comida Árabe y <br>Marroquí de Bogotá.</h1>
+			<h2>Acompaña tus días con la mejor comida Árabe y Marroquí de Bogotá.</h2>
+		</div>
+	</section>
+	
+
+<!-- -------------------	FOOTER------------------->
+	<footer>
+		<div class="footer__nav">
+			<div class="nav__logo">
+				<img src="img/log.png" alt="logo sahara">
+			</div>
+			<div class="nav__horario">
+				<h1 class="horario__titulo">Horarios</h1>
+				<h3 class="horario__subtitulo">Lunes a Viernes</h3>
+				<h3 class="horario__hora">9:30a.m. | 9:00p.m.</h3>
+				<h3 class="horario__subtitulo">Sábado y Domingo</h3>
+				<h3 class="horario__hora1">10:00a.m. | 9:00p.m.</h3>
+			</div>
+			<div class="nav__contacto">
+				<div class="contacto__data">
+					<h1 class="contacto__titulo">Contáctanos</h1>
+					<h3 class="contacto__numero">300 5984994</h3>
+					<h3 class="contacto__subtitulo">alsaharapas@hotmail.com</h3>
+				</div>
+				<div class="contacto__redes">
+					<ul>
+						<li><a href="https://www.facebook.com/Sahara-Restaurante-472903812818265/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+						<li><a href="https://www.instagram.com/sahara.restaurante/?hl=es-la" target="_blank"><i class="fab fa-instagram insta"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="nav__credits">
+				<h3>Copyright©2020 <br>Diseño: DDesingnn</h3>
+				<ul>
+					<li><a href="https://www.facebook.com/Sahara-Restaurante-472903812818265/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="https://www.instagram.com/sahara.restaurante/?hl=es-la" target="_blank"><i class="fab fa-instagram instagram"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+<!--	------------------------------FINAL------------------------------->
+	<section class="imagen__f">
+		<div class="f__img">
+			<img src="img/findex/3.jpg" alt="bla">		
+		</div>
+		<div class="f__cortina"></div>
+	</section>
+
+<!--//////-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	
+</body>
+
+</html>
