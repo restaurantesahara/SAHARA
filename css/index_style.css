@@ -770,7 +770,7 @@ footer{
 		display: block;
 	}
 	.nav__logo{
-		padding: 0 0 0 10%; 
+		padding: 0 0 0 32%; 
 		margin-left: 0;
 		margin: 20px 0px;
 	}
@@ -1322,6 +1322,14 @@ form{
 	.caja{
 		padding-top: 80px;
 	}
+	.caja__form{
+		width:100%;	
+		overflow: hidden;
+	}	
+	.msm__form{
+		width: 100%;
+		padding-right: 20%;
+	}		
 }
 /*---------------------PARA VISUALIZAR MENU HORIZONTAL*/
 /*
